@@ -42,7 +42,7 @@
       border-color:#2b3240;
       background:transparent;
     }
-    .btn.outline:hover{border-color:var(--accent);color:var(--accent)}
+    .btn.outline, .hover:hover{border-color:var(--accent);color:var(--accent)}
     .hero-img{
       height:360px;
       border-radius:var(--radius);
@@ -126,4 +126,5 @@
     @media(max-width:900px){
       .hero{grid-template-columns:1fr;text-align:center}
       .cta{justify-content:center}
+
     }
